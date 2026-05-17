@@ -1,0 +1,21 @@
+:root {
+    --primary-background-color: rgba(12, 90, 226);
+    --secondary-background-color: rgba(0, 82, 154);
+    --sub-color: rgba(255, 204, 115);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    line-height: 1.5;
+
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--secondary-background-color);
+}
