@@ -5,7 +5,7 @@
     font-family: sans-serif;
     margin: 72px 0;
     gap: 20px;
-    padding: 0 180px;
+    padding: 0 40px;
     color: var(--secondary-background-color);
 
     .group-intro {
@@ -64,14 +64,14 @@
     display: inline-block;
     font-family: sans-serif;
     gap: 30px;
-    padding: 0 180px;
+    padding: 0 40px;
     color: rgba(5, 47, 96);
     display: grid;
 
     .commit-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 20px;
+        column-gap: 40px;
 
         a {
             display: flex;
@@ -112,4 +112,79 @@
             }
         }
     }
+}
+
+.extra-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    margin: 72px 0;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        padding: 0 0 18px;
+        margin: 8px 0 0;
+        border-bottom: 2px solid var(--secondary-background-color);
+
+        font-size: 1.3rem;
+        font-weight: 300;
+        img {
+            width: 15px;
+            filter: invert(14%) sepia(91%) saturate(2852%) hue-rotate(202deg) brightness(91%) contrast(105%);
+        }
+    }
+}
+
+.accreditation {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    margin: 72px 0;
+    
+    h1 {
+        color: rgba(5, 47, 96);
+        font-weight: 600;
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+
+
+    .accreditation-list {
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            padding: 0 0 18px;
+            margin: 8px 0 0;
+            border-bottom: 2px solid var(--secondary-background-color);
+
+            font-size: 1.3rem;
+            font-weight: 300;
+            img {
+                width: 15px;
+                filter: invert(14%) sepia(91%) saturate(2852%) hue-rotate(202deg) brightness(91%) contrast(105%);
+            }
+        }
+    }
+
+    .more-content {
+        color: black;
+        font-family: sans-serif;
+        margin-top: 50px;
+
+        p, a {
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            margin: 0 4px;
+        }
+    }
+    
 }
